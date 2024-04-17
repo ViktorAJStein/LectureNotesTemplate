@@ -1,1 +1,24 @@
+After some introductory text, the first subsection starts
 
+\subsection{First subsection}
+
+Here's a lemma about an \emphi{important term}.
+This term is highlighted and added to the index.
+
+\begin{lemma}[Small lemma] \label{lemma:small}
+    Stuff and formulas:
+    \begin{equation*}
+        \Xi = \iint_{\R \times \R}
+    \end{equation*}
+\end{lemma}
+
+It can be referenced as \Cref{lemma:small} and is used to prove \cref{th:thm_label}.\marginnote{Here's a small comment in the margins.}
+
+A theorem looks like this
+\begin{thm}{Big theorem}{thm_label}
+    This is is mighty important.
+\end{thm}
+
+\begin{pr}
+    The proof can be found in \cite{HBGS2023}.
+\end{pr}
