@@ -1,0 +1,88 @@
+\documentclass[a4paper,english]{article}
+
+\usepackage{skript}
+
+% lecture meta data
+%\renewcommand{\lecturer}{}
+\renewcommand{\university}{Technical University Berlin}
+%\renewcommand{\lecture}{}
+%\renewcommand{\semester}{winter semester 2021/2022}
+%\renewcommand{\myauthor}{Viktor Stein (\href{mailto:v.glombik@campus.tu-berlin.de}{v.glombik@campus.tu-berlin.de})}
+
+\begin{document}
+\mytitlepage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\pagenumbering{arabic}
+
+\subfile{sections/intro}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{This is the first section}
+\subfile{sections/1/1-1}
+\subfile{sections/1/1-2}
+\subfile{sections/1/1-3}
+\subfile{sections/1/1-4}
+\subfile{sections/1/1-5}
+
+\section{More sections}
+\subfile{sections/2/2-1}
+\subfile{sections/2/2-2}
+\subfile{sections/2/2-3}
+\subfile{sections/2/2-4}
+
+\section{}
+\subfile{sections/3/3-1}
+\subfile{sections/3/3-2}
+\subfile{sections/3/3-3}
+\subfile{sections/3/3-4}
+\subfile{sections/3/3-5}
+
+\section{}
+\subfile{sections/4/4-1}
+\subfile{sections/4/4-2}
+\subfile{sections/4/4-3}
+
+\section{}
+\subfile{sections/5/5-0}
+\subfile{sections/5/5-1}
+\subfile{sections/5/5-2}
+\subfile{sections/5/5-3}
+\subfile{sections/5/5-4}
+\subfile{sections/5/5-5}
+\subfile{sections/5/5-6}
+
+\section{}
+\subfile{sections/6/6-1}
+\subfile{sections/6/6-2}
+\subfile{sections/6/6-3}
+\subfile{sections/6/6-4}
+
+
+\section{}
+\subfile{sections/7/7-1}
+\subfile{sections/7/7-2}
+\subfile{sections/7/7-3}
+\subfile{sections/7/7-4}
+\subfile{sections/7/7-5}
+\subfile{sections/7/7-6}
+
+
+\section{}
+\subfile{sections/8/8-1}
+\subfile{sections/8/8-2}
+\subfile{sections/8/8-3}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Index %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\addcontentsline{toc}{section}{Index}
+\printindex
+
+\clearpage
+%% References
+%\bibliographystyle{amsalpha}
+\bibliographystyle{plain}
+\bibliography{Bibliography}
+            
+\end{document}
